@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- google font:lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +32,11 @@
                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-                  <div class="dropdown  lg:hidden">
+                  <div class="dropdown relative right-4 lg:hidden">
                     <label tabindex="0" class="btn btn-ghost btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"  viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1]  p-2 shadow bg-base-100 rounded-box">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1]   p-2 shadow bg-base-100 rounded-box">
                       <li><a>Home</a></li>
                       <li><a>About Us</a></li>
                       <li><a>Shop</a></li>
@@ -64,14 +65,14 @@
         </nav>
         <!-- slider section -->
         <section class="mt-12">
-            <div class="carousel w-full">
+            <div class="carousel w-full ">
                 <!-- slide one -->
                 <div id="slide1" class="carousel-item relative  w-full">
                     <div class="hero rounded-lg" style="background-image: url(images/banner1.png)">
                         <div class="hero-overlay   rounded-lg  bg-opacity-60"></div>
                         <div class="hero-content  text-center sm:mt-0 lg:-mt-36 lg:mb-20  text-neutral-content">
-                          <div class="max-w lg:my-56">
-                            <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                          <div class="max-w">
+                            <h1 class="mb-5  lg:pt-16 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                             <p class="mb-5">We supply highly quality organic products</p>
                             <button class="btn btn-primary text-white px-7 bg-[#F85559] border-none">Shop Now</button>
                           </div>
@@ -164,13 +165,13 @@
     <main class="container mx-auto">
       <!-- deal section -->
       <section class="mb-14">
-        <div class="lg:flex justify-around">
+        <div class=" text-center px-6 lg:px-0  lg:flex lg:text-left justify-around">
           <div>
             <h3 class="text-[#121212] font-extrabold text-4xl mb-6">Deal of the day</h3>
             <p class="text-base font-semibold text-[#3f3e3e]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="grid grid-flow-col ml-8 lg:ml-0  lg:gap-5   text-center auto-cols-max">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl text-[#121212] font-extrabold">
                   <span style="--value:29;"></span>
@@ -203,7 +204,7 @@
         </div>
       </section>
       <!-- fruit card -->
-      <section class="my-10 lg:flex justify-around">
+      <section class="my-10  lg:flex ml-14 lg:ml-0 justify-around">
         <!-- first card -->
         <div class="card w-80 bg-base-100 border border-gray-300 rounded-lg id="first_card""">
           <figure class="px-10 pt-10">
@@ -366,11 +367,11 @@
               <h3 class="mb-5  text-5xl font-extrabold">Meet the team section</h3>
               <p class="mb-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
               <!-- meet the team members -->
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 ml-32 lg:ml-0">
                 <div>
                   <img src="images/member1.png" alt="">
-                  <h3 class="text-2xl font-bold">Awlad Hossain</h3>
-                  <p class="font-semibold">Fruits Expert</p>
+                  <h3 class="lg:text-2xl font-bold pr-32 lg:pr-0">Awlad Hossain</h3>
+                  <p class="font-semibold pr-32 lg:pr-0">Fruits Expert</p>
                   <div class="flex gap-3 pl-6 mt-4">
                     <img src="images/facebook 1 (1).png" alt="">
                     <img src="images/twitter (1) 1.png" alt="">
@@ -379,8 +380,8 @@
                 </div>
                 <div>
                   <img src="images/member2.png" alt="">
-                  <h3 class="text-2xl font-bold">Safia Chowdhury</h3>
-                  <p class="font-semibold">Fruits Expert</p>
+                  <h3 class="lg:text-2xl font-bold pr-32 lg:pr-0">Safia Chowdhury</h3>
+                  <p class="font-semibold pr-32 lg:pr-0">Fruits Expert</p>
                   <div class="flex gap-3 pl-6 mt-4">
                     <img src="images/facebook 1 (1).png" alt="">
                     <img src="images/twitter (1) 1.png" alt="">
@@ -389,8 +390,8 @@
                 </div>
                 <div>
                   <img src="images/member3.png" alt="">
-                  <h3 class="text-2xl font-bold">Rokib Hossain</h3>
-                  <p class="font-semibold">Fruits Expert</p>
+                  <h3 class="lg:text-2xl font-bold pr-32 lg:pr-0">Rokib Hossain</h3>
+                  <p class="font-semibold pr-32 lg:pr-0">Fruits Expert</p>
                   <div class="flex gap-3 pl-6 mt-4">
                     <img src="images/facebook 1 (1).png" alt="">
                     <img src="images/twitter (1) 1.png" alt="">
@@ -399,8 +400,8 @@
                 </div>
                 <div>
                   <img src="images/member4.png" alt="">
-                  <h3 class="text-2xl font-bold">Chaity</h3>
-                  <p class="font-semibold">Fruits Expert</p>
+                  <h3 class="lg:text-2xl font-bold pr-32 lg:pr-0">Chaity</h3>
+                  <p class="font-semibold pr-32 lg:pr-0">Fruits Expert</p>
                   <div class="flex gap-3 pl-6 mt-4">
                     <img src="images/facebook 1 (1).png" alt="">
                     <img src="images/twitter (1) 1.png" alt="">
@@ -414,58 +415,58 @@
       </section>
       <!-- why choose us -->
       <section>
-        <h2 class="text-5xl font-extrabold text-[#121212] text-center mb-6">Why Choose Us</h2>
-        <p class="font-semibold text-[#3d3d3d] text-center mb-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <h2 class="text-5xl font-extrabold text-[#121212] text-center px-10 lg:px-0 mb-6">Why Choose Us</h2>
+        <p class="font-semibold text-[#3d3d3d] px-10 lg:px-0 text-center mb-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         <!-- 3 parts -->
-        <div class="grid grid-cols-1  lg:grid-cols-3">
-          <div>
-            <div class="flex items-center gap-7 mb-6">
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/group 1.png" alt=""></div>
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">Dedicated Team</h3>
-                <hr class="w-4/12 border-black mb-3">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+          <div class="order-2 lg:order-none"> 
+            <div class="lg:flex items-center gap-7 mb-6">
+              <div class="pb-5"><img class="bg-gray-300 ml-48 lg:ml-0 rounded-full px-2 py-2" src="images/group 1.png" alt=""></div>
+              <div><h3 class="mb-3 font-extrabold text-xl ml-36 lg:ml-0 text-black">Dedicated Team</h3>
+                <hr class="w-4/12 border-black mb-3 ml-36 lg:ml-0">
+                <p class="font-semibold text-[#3d3d3d] px-6 lg:px-0 text-center lg:text-left">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
             </div>
-            <div class="flex items-center gap-7 mb-6">
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/love 1.png" alt=""></div>
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">Fresh is Best</h3>
-                <hr class="w-4/12 border-black mb-3">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+            <div class="lg:flex items-center gap-7 mb-6">
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 ml-48 lg:ml-0" src="images/love 1.png" alt=""></div>
+              <div><h3 class="mb-3 font-extrabold text-xl text-black ml-40 lg:ml-0">Fresh is Best</h3>
+                <hr class="w-4/12 border-black mb-3 ml-36 lg:ml-0">
+                <p class="font-semibold text-[#3d3d3d] px-6 text-center lg:text-left lg:px-0">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
             </div>
-            <div class="flex items-center gap-7">
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/gift-box 1.png" alt=""></div>
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">Gift Certificates</h3>
-                <hr class="w-4/12 border-black mb-3">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+            <div class="lg:flex items-center gap-7 mb-4 lg:mb-0">
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 ml-48 lg:ml-0" src="images/gift-box 1.png" alt=""></div>
+              <div><h3 class="mb-3 font-extrabold text-xl text-black ml-36 lg:ml-0">Gift Certificates</h3>
+                <hr class="w-4/12 border-black mb-3 ml-36 lg:ml-0">
+                <p class="font-semibold text-[#3d3d3d] px-6 text-center lg:text-left lg:px-0">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
             </div>
           </div>
-          <div><img class="h-3/4 ml-10 mt-6" src="images/whychoose1.png" alt=""></div>
+          <div><img class="h-3/4 ml-10 lg:ml-20 mt-6" src="images/whychoose1.png" alt=""></div>
           <div>
-            <div class="flex items-center gap-7 text-right mb--6">
+            <div class="lg:flex items-center gap-7 text-right mb-6">
               
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">Integrated Supplier</h3>
-                <hr class="w-4/12 border-black mb-3 ml-56">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+              <div><h3 class="mb-3 font-extrabold text-xl text-black mr-32 lg:mr-0">Integrated Supplier</h3>
+                <hr class="w-4/12 border-black mb-3 lg:ml-56 ml-32">
+                <p class="font-semibold text-[#3d3d3d] px-10 lg:px-0 text-center lg:text-right">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/fruit 1.png" alt=""></div>
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 ml-44 lg:ml-0 -mt-4 -lg:mt-0 relative -top-40 lg:-top-0" src="images/fruit 1.png" alt=""></div>
             </div>
-            <div class="flex items-center gap-7 text-right mb-6">
+            <div class="lg:flex items-center gap-7 text-right mb-6">
               
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">Sustainable Practice</h3>
-                <hr class="w-4/12 border-black mb-3 ml-56">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+              <div><h3 class="mb-3 font-extrabold text-xl text-black mr-28 lg:mr-0">Sustainable Practice</h3>
+                <hr class="w-4/12 border-black mb-3 lg:ml-56 ml-36">
+                <p class="font-semibold text-[#3d3d3d] text-center lg:text-right ">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/ice-cream 1.png" alt=""></div>
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 relative -top-36 lg:-top-0 ml-44 lg:ml-0" src="images/ice-cream 1.png" alt=""></div>
             </div>
-            <div class="flex items-center gap-7 text-right">
+            <div class="lg:flex items-center gap-7 text-right">
               
-              <div><h3 class="mb-3 font-extrabold text-xl text-black">The Benefits Only</h3>
-                <hr class="w-4/12 border-black mb-3 ml-56">
-                <p class="font-semibold text-[#3d3d3d]">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+              <div><h3 class="mb-3 font-extrabold text-xl text-black mr-32 lg:mr-0">The Benefits Only</h3>
+                <hr class="w-4/12 border-black mb-3 lg:ml-56 ml-36">
+                <p class="font-semibold text-[#3d3d3d] text-center lg:text-right">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2" src="images/like 1.png" alt=""></div>
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 relative -top-36 lg:-top-0 ml-44 lg:ml-0" src="images/like 1.png" alt=""></div>
             </div>
           </div> 
         </div>
@@ -476,7 +477,7 @@
         <img src="images/logo.png" alt="">
         <h4 class="font-bold text-3xl text-white">Fruit Burst</h4>
       </div>
-      <div class="grid grid-flow-col gap-8 text-[18] text-white mb-10">
+      <div class="flex flex-wrap  lg:grid grid-flow-col gap-8 text-[18]  text-white mb-10">
         <a class="link link-hover">Home</a> 
         <a class="link link-hover">About Us</a> 
         <a class="link link-hover">Shop</a> 
