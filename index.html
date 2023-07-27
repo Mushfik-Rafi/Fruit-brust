@@ -22,7 +22,7 @@
     <header class="container mx-auto">
         <!-- nav section -->
         <nav>
-            <div class="navbar lg:bg-[#F85559] rounded-[600px] mt-12 h-24 flex flex-row-reverse   lg:flex-row">
+            <div class="navbar lg:bg-[#F85559] rounded-[600px] mt-12 lg:-ml-1 h-24 flex flex-row-reverse  md:-ml-28 lg:flex-row">
                 <div class="navbar-start">
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu text-base menu-horizontal px-6   text-white">
@@ -32,7 +32,7 @@
                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-                  <div class="dropdown relative right-4 lg:hidden">
+                  <div class="dropdown right-8 lg:right-0 lg:hidden">
                     <label tabindex="0" class="btn btn-ghost btn-circle">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"  viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
@@ -65,10 +65,10 @@
         </nav>
         <!-- slider section -->
         <section class="mt-12">
-            <div class="carousel w-full ">
+            <div class="carousel  w-full ">
                 <!-- slide one -->
                 <div id="slide1" class="carousel-item relative  w-full">
-                    <div class="hero rounded-lg" style="background-image: url(images/banner1.png)">
+                    <div class="hero rounded-lg " style="background-image: url(images/banner1.png)">
                         <div class="hero-overlay   rounded-lg  bg-opacity-60"></div>
                         <div class="hero-content  text-center sm:mt-0 lg:-mt-36 lg:mb-20  text-neutral-content">
                           <div class="max-w">
@@ -138,7 +138,7 @@
     </section>
     <!-- fruit section -->
     <section class="ml-28">
-        <div class="hidden lg:flex justify-around items-center bg-white border h-60 w-11/12 rounded-lg relative -top-36">
+        <div class="hidden md:flex lg:flex justify-around items-center bg-white border h-60 w-11/12 rounded-lg relative -top-36">
           <div>
             <img class="mb-4" src="images/fruit1.png" alt="">
             <p class="text-[20] text-center font-semibold text-[#121212]">Strawberry</p>
@@ -165,13 +165,13 @@
     <main class="container mx-auto">
       <!-- deal section -->
       <section class="mb-14">
-        <div class=" text-center px-6 lg:px-0  lg:flex lg:text-left justify-around">
+        <div class=" text-center px-6 lg:px-0 md:-mt-12   lg:flex lg:text-left justify-around">
           <div>
             <h3 class="text-[#121212] font-extrabold text-4xl mb-6">Deal of the day</h3>
-            <p class="text-base font-semibold text-[#3f3e3e]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p class="text-base md:font-bold font-semibold text-[#3f3e3e]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
-            <div class="grid grid-flow-col ml-8 lg:ml-0  lg:gap-5   text-center auto-cols-max">
+            <div class="grid grid-flow-col ml-8 lg:ml-0  lg:gap-5  md:gap-5 md:ml-32 text-center auto-cols-max">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl text-[#121212] font-extrabold">
                   <span style="--value:29;"></span>
@@ -204,7 +204,7 @@
         </div>
       </section>
       <!-- fruit card -->
-      <section class="my-10  lg:flex ml-14 lg:ml-0 justify-around">
+      <section class="my-10  lg:flex ml-14 lg:ml-0 justify-around md:grid md:grid-cols-2">
         <!-- first card -->
         <div class="card w-80 bg-base-100 border border-gray-300 rounded-lg id="first_card""">
           <figure class="px-10 pt-10">
@@ -234,7 +234,7 @@
       <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-400" />
       <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-400" />
     </div> 
-    <div class="modal-action pr-36">
+    <div class="modal-action pr-36 ">
       <!-- if there is a button in form, it will close the modal -->
       <button class="btn text-red-400 bg-white border-red-400">Close</button>
       <button class="btn bg-red-400 text-white border-none">Buy Now</button>
@@ -418,10 +418,10 @@
         <h2 class="text-5xl font-extrabold text-[#121212] text-center px-10 lg:px-0 mb-6">Why Choose Us</h2>
         <p class="font-semibold text-[#3d3d3d] px-10 lg:px-0 text-center mb-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         <!-- 3 parts -->
-        <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:flex justify-around">
           <div class="order-2 lg:order-none"> 
-            <div class="lg:flex items-center gap-7 mb-6">
-              <div class="pb-5"><img class="bg-gray-300 ml-48 lg:ml-0 rounded-full px-2 py-2" src="images/group 1.png" alt=""></div>
+            <div class="lg:flex   items-center gap-7 mb-6">
+              <div class="pb-5"><img class="bg-gray-300 ml-48 lg:ml-0 rounded-full px-2 py-2 " src="images/group 1.png" alt=""></div>
               <div><h3 class="mb-3 font-extrabold text-xl ml-36 lg:ml-0 text-black">Dedicated Team</h3>
                 <hr class="w-4/12 border-black mb-3 ml-36 lg:ml-0">
                 <p class="font-semibold text-[#3d3d3d] px-6 lg:px-0 text-center lg:text-left">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
@@ -442,7 +442,7 @@
               </div>
             </div>
           </div>
-          <div><img class="h-3/4 ml-10 lg:ml-20 mt-6" src="images/whychoose1.png" alt=""></div>
+          <div><img class="h-3/4  lg:h-5/6  ml-10  lg:ml-20 lg:mt-6 md:mt-40 md:w-3/4 md:h-1/2" src="images/whychoose1.png" alt=""></div>
           <div>
             <div class="lg:flex items-center gap-7 text-right mb-6">
               
@@ -450,7 +450,7 @@
                 <hr class="w-4/12 border-black mb-3 lg:ml-56 ml-32">
                 <p class="font-semibold text-[#3d3d3d] px-10 lg:px-0 text-center lg:text-right">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
-              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 ml-44 lg:ml-0 -mt-4 -lg:mt-0 relative -top-40 lg:-top-0" src="images/fruit 1.png" alt=""></div>
+              <div class="pb-5"><img class="bg-gray-300 rounded-full px-2 py-2 ml-44 lg:ml-0 -mt-4 -lg:mt-0 relative -top-36 lg:-top-0" src="images/fruit 1.png" alt=""></div>
             </div>
             <div class="lg:flex items-center gap-7 text-right mb-6">
               
